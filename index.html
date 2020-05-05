@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>
+            ROCK PAPER SCISSORS
+        </h1>
+    </header>
+    <div class="score-board">
+        <div id="user-label" class="badge">USER</div>
+        <div id="computer-label" class="badge">COMPUTER</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+        <p>
+            PAPER COVERS ROCK!
+        </p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="./images/rock.png" alt="ROCK">
+        </div>
+        <div class="choice" id="p">
+            <img src="./images/paper.png" alt="PAPER">
+        </div>
+        <div class="choice" id="s">
+            <img src="./images/scissors.png" alt="SCISSORS">
+        </div>
+    </div>
+    <p id="action-message">MAKE YOUR MOVE!</p>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
